@@ -1,0 +1,222 @@
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold.ttf');
+	font-family: 'georgia bold';
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold italic.ttf');
+	font-family: 'georgia bold italic';
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/Georgia Regular font.ttf');
+	font-family: 'Georgia Regular';
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/GEORGIA4.TTF');
+	font-family: 'GEORGIA4';
+}
+
+/* HEADER STYLE START */
+header{
+   margin-bottom: 40px;
+}
+.header-top-violet{
+	height: 10px;
+	background: #894aa3;
+	width: 100%;
+}
+
+.search-form form input {
+  background: #ebebea;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.search-form i {
+  position: absolute;
+  top: 16px;
+  right: 30px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Georgia Regular';
+}
+nav ul li a:hover {
+  color: #000;
+  text-decoration: none
+
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+/* HEADER STYLE END */
+
+
+/* SLOGAN STYLE START */
+.slogan-area {
+  background: #ebebea;
+  padding: 20px 0;
+}
+.slogan {
+  width: 90%;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: center;
+  font-family: 'georgia bold';
+}
+.slogan h2 {
+  font-size: 24px;
+}
+
+
+/* SLOGAN STYLE END */
+
+
+
+/* SLIDER STYLE START */
+.slider-area{
+  width: 100%;
+  height: 600px;
+}
+
+.slider-area img{
+  width: 100%;
+  height: 600px;
+}
+
+.sec-padding{
+  padding: 45px 0px;
+}
+
+/* SLIDER STYLE END */
+
+
+/* SERVICE STYLE START */
+
+.service-icon {
+  text-align: center;
+}
+.service-icon i {
+  font-size: 40px;
+  color: #bf5f70;
+  transition: .5s;
+}
+.service-icon i:hover {
+  transform: rotate(360deg);
+}
+.service-desc h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #822939;
+}
+.service-desc p {
+  margin-top: 15px;
+  opacity: .7;
+  font-size: 14px;
+}
+
+/* SERVICE STYLE END */
+
+
+/* TEAM STYLE START */
+.team-area{
+  background: #ebebea;
+}
+.single-team-box{
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.single-team-box img{
+  width: 100%;
+  height: 180px
+}
+
+.single-team-box h2 {
+  margin: 20px auto;
+  font-weight: 600;
+  color: #822939;
+}
+/* TEAM STYLE END */
+
+
+
+/* FOOTER STYLE START */
+
+.footer-widget-title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+footer p {
+  color: #000;
+  opacity: .6;
+  margin-bottom: 0;
+}
+address {
+  /*! margin-top: -3px; */
+}
+address {
+  opacity: .6;
+  line-height: 1.8;
+}
+.quick-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.quick-link li {
+  line-height: 2;
+  border-bottom: 1px solid #DDD;
+}
+.quick-link li a {
+  color: #000;
+  opacity: .6;
+}
+.footer-blog-post h5 {
+  font-weight: 500;
+  font-size: 17px;
+}
+a {
+}
+.footer-blog-post a {
+  text-align: right;
+  display: block;
+  color: #874ca0;
+  font-size: 15px;
+}
+.footer-blog-post a i {
+  margin-left: 3px;
+  font-size: 12px;
+}
+footer form input {
+  background: #ddd !important;
+}
+input[type=submit] {
+  color: #874ca0;
+  font-weight: 700;
+}
+/* FOOTER STYLE END */
